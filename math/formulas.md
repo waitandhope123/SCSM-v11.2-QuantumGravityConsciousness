@@ -122,6 +122,8 @@ Planck foam ($10^{-35}\,\text{m}$)
 
 ## 7. Decoherence / Open-System Coupling
 
+$$ \dot{\rho}_{\text{bio}} = -i[H_{\text{bio}}, \rho_{\text{bio}}] + \gamma(\chi \rho_{\text{bio}} \chi^\dagger - \tfrac{1}{2}\{\chi^\dagger \chi, \rho_{\text{bio}}\}) $$
+
 $$
 \begin{aligned}
 \dot{\rho}_{\text{bio}}

@@ -13,7 +13,7 @@ Topologically invariant consciousness sectors (ℤ-charged skyrmions) in Aalto's
 - ✅ **No Teleology**: Pure renormalization group flow + maximum entropy dynamics
 
 ## Core Lagrangian
-ℒ_SCSM = √(-g)[R + αR² + g_ψ ψ̅γ^μD_μψ_ID + ½(∂χ)² - ½m_χ²χ² + g_χ χ Tr(ÂÊ) + λ_χ χ|ψ_bio|²]
+$$\mathcal{L}_{\mathrm{SCSM}}=\sqrt{-g}\left[R+\alpha R^{2}+g_{\psi}\bar{\psi}\gamma^{\mu}D_{\mu}\psi_{\mathrm{ID}}+\tfrac{1}{2}(\partial\chi)^{2}-\tfrac{1}{2}m_{\chi}^{2}\chi^{2}+g_{\chi}\chi\,\mathrm{Tr}(\hat{A}\hat{E})+\lambda_{\chi}\chi|\psi_{\mathrm{bio}}|^{2}\right]$$
 
 ## Falsification Tests (2026–2028)
 | Observable | Predicted Signal | Instrument | Deadline |

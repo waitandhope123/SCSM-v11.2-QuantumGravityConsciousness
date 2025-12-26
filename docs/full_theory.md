@@ -9,9 +9,8 @@
 | Embodiment boundary | ΔP_Casimir = -ℏcπ²/(240d⁴) + αℏR/d² |
 
 ## Complete Lagrangian
-ℒ_SCSM-v11.2 = ℒ_quadratic + ℒ_skyrmion + ℒ_χ_bridge + ℒ_bio
 
-[Full LaTeX in math/Lagrangian.tex]
+$$\mathcal{L}_{\mathrm{SCSM\text{-}v11.2}}=\sqrt{-g}\left[R+\alpha R^{2}+g_{\psi}\bar{\psi}\gamma^{\mu}D_{\mu}\psi_{\mathrm{ID}}+\tfrac{1}{2}(\partial\chi)^{2}-\tfrac{1}{2}m_{\chi}^{2}\chi^{2}+g_{\chi}\chi\,\operatorname{Tr}(\hat{A}\hat{E})+\lambda_{\chi}\chi|\psi_{\mathrm{bio}}|^{2}\right]$$
 
 ## Scale Translation Mechanism
 Planck foam (10⁻³⁵m)

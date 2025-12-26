@@ -23,7 +23,7 @@ Topologically invariant consciousness sectors (ℤ-charged skyrmions) in Aalto's
 | Lensing Deficit | 0.4% Σ_crit @ z<0.1 | JWST NIRCam | 2028 |
 
 ## Development History
-Evolved from [SCSM v6.0](legacy/v6.0_original.md) through iterative AI synthesis (Claude→ChatGPT→Perplexity physics grounding).
+Evolved from [SCSM v6.0](legacy/v6.0_original.md) through iterative AI synthesis (ChatGPT→Claude→Perplexity physics grounding).
 
 **🧠 Collaboration Scopes:**
 - AQG simulation (spin network propagation)

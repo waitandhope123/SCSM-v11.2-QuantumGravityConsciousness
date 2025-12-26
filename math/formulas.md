@@ -45,8 +45,6 @@ $$Q=\frac{1}{24\pi^2}\int\mathrm{tr}(F\wedge F)$$
 
 Standard Casimir pressure between plates:
 
-## 3. Casimir Pressure with Foam Correction
-
 $$\Delta P_{\mathrm{Casimir,0}}=-\frac{\hbar c\pi^2}{240d^4}$$
 
 SCSM v11.2 adds a small curvature‑dependent correction:
@@ -64,8 +62,6 @@ This correction is what generates the predicted **~52 pN “rubbery” somatic
 ---
 
 ## 4. χ‑Field Bridge Lagrangian
-
-## 4. χ-Field Bridge Lagrangian
 
 $$\mathcal{L}_\chi=\tfrac{1}{2}(\partial_\mu\chi)^2-\tfrac{1}{2}m_\chi^2\chi^2+g_\chi\chi\,\mathrm{Tr}(\hat{A}\hat{E})+\lambda_\chi\chi|\psi_{\mathrm{bio}}|^2$$
 

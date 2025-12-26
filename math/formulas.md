@@ -13,7 +13,7 @@ $$
 & R + \alpha R^2 \\
 & + g_\psi \,\bar{\psi}_{\text{ID}} \gamma^\mu D_\mu \psi_{\text{ID}} \\
 & + \tfrac{1}{2}(\partial_\mu \chi)^2
-  - \tfrac{1}{2} m_\chi^2 \chi^2 \\
+- \tfrac{1}{2} m_\chi^2 \chi^2 \\
 & + g_\chi \chi \,\text{Tr}(\hat{A}\hat{E}) \\
 & + \lambda_\chi \chi |\psi_{\text{bio}}|^2
 \Big]
@@ -22,21 +22,14 @@ $$
 
 **Meaning:**
 
-- $\sqrt{-g}$ – volume element in curved spacetime (from GR).  
-- $R + \alpha R^2$ – Einstein–Hilbert term plus a quadratic-curvature correction.  
-- $\psi_{\text{ID}}$ – field representing a “conscious identity” as a topological excitation.  
-- $g_\psi \bar{\psi}\gamma^\mu D_\mu\psi$ – kinetic / interaction term for the identity field.  
-- $\chi$ – massive scalar “metric phonon” field mediating between Planck-scale foam and biological scales.  
-- $m_\chi$ – mass of the $\chi$ field (chosen around $10^{-12}\,\text{eV}$).  
-- $\text{Tr}(\hat{A}\hat{E})$ – effective quantum-foam curvature operator.  
+- $\sqrt{-g}$ – volume element in curved spacetime (from GR).
+- $R + \alpha R^2$ – Einstein–Hilbert term plus a quadratic-curvature correction.
+- $\psi_{\text{ID}}$ – field representing a “conscious identity” as a topological excitation.
+- $g_\psi \bar{\psi}\gamma^\mu D_\mu\psi$ – kinetic / interaction term for that identity field.
+- $\chi$ – massive scalar “metric phonon” field mediating between Planck-scale foam and biological scales.
+- $m_\chi$ – mass of the $\chi$ field (chosen around $10^{-12}\,\text{eV}$).
+- $\text{Tr}(\hat{A}\hat{E})$ – effective quantum-foam curvature operator.
 - $|\psi_{\text{bio}}|^2$ – effective density of biological coherence.
-
-This Lagrangian encodes:
-
-- Gravity (GR + quadratic term)  
-- Topological identity sectors  
-- The $\chi$ bridging field  
-- Coupling to quantum-foam geometry and biological coherence  
 
 ---
 
@@ -48,22 +41,18 @@ $$
 
 **Meaning:**
 
-- $F$ – field strength (curvature) of the underlying gauge connection.  
-- The integral counts topological winding of the configuration.  
-- $Q \in \mathbb{Z}$ is a conserved **persistent identity label**.
+- $F$ – field strength (curvature) of the underlying gauge connection.
+- The integral counts topological winding of the configuration.
+- $Q \in \mathbb{Z}$ is a conserved persistent identity label.
 
 ---
 
 ## 3. Casimir Pressure with Foam Correction
 
-Standard Casimir pressure:
-
 $$
 \Delta P_{\text{Casimir,0}}
 = -\frac{\hbar c \pi^2}{240 d^4}
 $$
-
-SCSM v11.2 correction:
 
 $$
 \Delta P_{\text{Casimir}}
@@ -73,11 +62,9 @@ $$
 
 **Meaning:**
 
-- $d$ – effective separation scale (order $\sim 1\,\text{mm}$).  
-- $R_{\text{eff}}$ – curvature induced by foam and $\chi$ fluctuations.  
+- $d$ – effective separation scale (order $\sim 1\,\text{mm}$).
+- $R_{\text{eff}}$ – curvature induced by foam and $\chi$ fluctuations.
 - $\alpha_{\text{foam}}$ – dimensionless foam-coupling parameter.
-
-This correction generates the predicted **$\sim 52\,\text{pN}$ somatic field**.
 
 ---
 
@@ -93,21 +80,17 @@ $$
 
 **Meaning:**
 
-- $\chi$ is a light massive scalar (Compton wavelength $\sim 1\,\text{mm}$).  
-- Excited by quantum-geometric (foam) curvature.  
+- $\chi$ is a light massive scalar with millimeter-scale Compton wavelength.
+- Excited by quantum-geometric (foam) curvature.
 - Weakly coupled to coherent biological states.
 
 ---
 
 ## 5. Information-Geometry / Entropic Gravity Link
 
-Information metric:
-
 $$
-g_{ab}^{(I)} = \partial_a \partial_b \Phi(\rho)
+g^{(I)}_{ab} = \partial_a \partial_b \Phi(\rho)
 $$
-
-Entropy–curvature relation:
 
 $$
 R_{ab} - \tfrac{1}{2} R g_{ab}
@@ -119,8 +102,8 @@ $$
 
 **Meaning:**
 
-- $\Phi(\rho)$ – information potential derived from the density matrix.  
-- $g_{ab}^{(I)}$ – Fisher information metric.  
+- $\Phi(\rho)$ – information potential derived from the density matrix.
+- $g^{(I)}_{ab}$ – Fisher information metric.
 - Spacetime curvature is interpreted as curvature in information space.
 
 ---
@@ -138,18 +121,20 @@ $$
 ## 7. Decoherence / Open-System Coupling
 
 $$
+\begin{aligned}
 \dot{\rho}_{\text{bio}}
-= -i[H_{\text{bio}}, \rho_{\text{bio}}]
-+ \gamma\!\left(
+&= -i[H_{\text{bio}}, \rho_{\text{bio}}] \\
+&\quad + \gamma\!\left(
 \chi \rho_{\text{bio}} \chi^\dagger
 - \tfrac{1}{2}\{\chi^\dagger \chi, \rho_{\text{bio}}\}
 \right)
+\end{aligned}
 $$
 
 **Meaning:**
 
-- Lindblad equation for an open quantum system.  
-- $\gamma \propto \lambda_\chi^2$ controls decoherence strength.  
+- Lindblad equation for an open quantum system.
+- $\gamma \propto \lambda_\chi^2$ controls decoherence or coherent driving.
 - Encodes state-dependent coupling regimes.
 
 ---

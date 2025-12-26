@@ -7,99 +7,86 @@ This document summarizes the main formulas used in the Speculative Consciousness
 ## 1. Core Lagrangian (Symbolic Form)
 
 $$
-\begin{aligned}
-\mathcal{L}_{\text{SCSM}}
-= \sqrt{-g}\Big[
-& R + \alpha R^2 \\
-& + g_\psi \,\bar{\psi}_{\text{ID}} \gamma^\mu D_\mu \psi_{\text{ID}} \\
-& + \tfrac{1}{2}(\partial_\mu \chi)^2
-- \tfrac{1}{2} m_\chi^2 \chi^2 \\
-& + g_\chi \chi \,\text{Tr}(\hat{A}\hat{E}) \\
-& + \lambda_\chi \chi |\psi_{\text{bio}}|^2
-\Big]
-\end{aligned}
+\mathcal{L}_{\text{SCSM}} = \sqrt{-g}\Big[ R + \alpha R^2 + g_\psi \bar{\psi}_{\text{ID}} \gamma^\mu D_\mu \psi_{\text{ID}} + \tfrac{1}{2}(\partial_\mu \chi)^2 - \tfrac{1}{2} m_\chi^2 \chi^2 + g_\chi \chi\,\text{Tr}(\hat{A}\hat{E}) + \lambda_\chi \chi |\psi_{\text{bio}}|^2 \Big]
 $$
 
 **Meaning:**
 
 - $\sqrt{-g}$ – volume element in curved spacetime (from GR).
 - $R + \alpha R^2$ – Einstein–Hilbert term plus a quadratic-curvature correction.
-- $\psi_{\text{ID}}$ – field representing a persistent topological identity.
-- $g_\psi \bar{\psi}\gamma^\mu D_\mu\psi$ – kinetic / interaction term for identity dynamics.
-- $\chi$ – massive scalar “metric phonon” field.
-- $m_\chi$ – mass of the $\chi$ field (order $10^{-12}\,\text{eV}$).
+- $\psi_{\text{ID}}$ – field representing a “conscious identity” as a topological excitation.
+- $g_\psi \bar{\psi}\gamma^\mu D_\mu\psi$ – kinetic / interaction term for that identity field.
+- $\chi$ – massive scalar “metric phonon” field mediating between Planck-scale foam and biological scales.
+- $m_\chi$ – mass of the $\chi$ field (chosen around $10^{-12}\,\text{eV}$).
 - $\text{Tr}(\hat{A}\hat{E})$ – effective quantum-foam curvature operator.
-- $|\psi_{\text{bio}}|^2$ – biological coherence density.
+- $|\psi_{\text{bio}}|^2$ – effective density of biological coherence.
 
 ---
 
 ## 2. Skyrmion / Topological Identity Charge
 
 $$
-Q = \frac{1}{24\pi^2} \int \text{tr}\!\left(F \wedge F\right)
+Q = \frac{1}{24\pi^2}\int \text{tr}(F \wedge F)
 $$
 
 **Meaning:**
 
-- $F$ – gauge-field curvature.
-- The integral counts topological winding.
-- $Q \in \mathbb{Z}$ is a conserved identity label.
+- $F$ – field strength (curvature) of the underlying gauge connection.
+- The integral counts topological winding of the configuration.
+- $Q \in \mathbb{Z}$ is a conserved **persistent identity label**.
 
 ---
 
 ## 3. Casimir Pressure with Foam Correction
 
-$$
-\Delta P_{\text{Casimir,0}}
-= -\frac{\hbar c \pi^2}{240 d^4}
-$$
+Standard Casimir pressure:
 
 $$
-\Delta P_{\text{Casimir}}
-= -\frac{\hbar c \pi^2}{240 d^4}
-+ \alpha_{\text{foam}}\frac{\hbar}{d^2} R_{\text{eff}}
+\Delta P_{\text{Casimir,0}} = -\frac{\hbar c \pi^2}{240 d^4}
+$$
+
+Foam-corrected pressure:
+
+$$
+\Delta P_{\text{Casimir}} = -\frac{\hbar c \pi^2}{240 d^4} + \alpha_{\text{foam}}\frac{\hbar}{d^2}R_{\text{eff}}
 $$
 
 **Meaning:**
 
-- $d$ – effective separation scale ($\sim 1\,\text{mm}$).
+- $d$ – effective separation scale (order $\sim 1\,\text{mm}$).
 - $R_{\text{eff}}$ – curvature induced by foam and $\chi$ fluctuations.
-- $\alpha_{\text{foam}}$ – dimensionless foam-coupling parameter.
+- $\alpha_{\text{foam}}$ – dimensionless coupling encoding foam influence.
+
+This correction generates the predicted **$\sim 52\,\text{pN}$ “rubbery” somatic field**.
 
 ---
 
 ## 4. $\chi$-Field Bridge Lagrangian
 
 $$
-\mathcal{L}_{\chi}
-= \tfrac{1}{2}(\partial_\mu \chi)^2
-- \tfrac{1}{2} m_\chi^2 \chi^2
-+ g_\chi \chi \,\text{Tr}(\hat{A}\hat{E})
-+ \lambda_\chi \chi |\psi_{\text{bio}}|^2
+\mathcal{L}_{\chi} = \tfrac{1}{2}(\partial_\mu \chi)^2 - \tfrac{1}{2}m_\chi^2\chi^2 + g_\chi \chi\,\text{Tr}(\hat{A}\hat{E}) + \lambda_\chi \chi |\psi_{\text{bio}}|^2
 $$
 
 **Meaning:**
 
-- $\chi$ is a light massive scalar with millimeter-scale Compton wavelength.
-- Excited by quantum-geometric curvature.
-- Weakly coupled to biological coherence.
+- $\chi$ behaves as a very light massive scalar (Compton wavelength $\sim 1\,\text{mm}$).
+- Excited by quantum-geometric (foam) curvature.
+- Weakly coupled to coherent biological states.
 
 ---
 
 ## 5. Information-Geometry / Entropic Gravity Link
 
+Information metric:
+
 $$
 g^{(I)}_{ab} = \partial_a \partial_b \Phi(\rho)
 $$
 
+Entropy–curvature relation:
+
 $$
-\begin{aligned}
-R_{ab} - \tfrac{1}{2} R g_{ab}
-&= \kappa\!\left(
-\nabla_a \Phi \nabla_b \Phi
-- \tfrac{1}{2} g_{ab} (\nabla \Phi)^2
-\right)
-\end{aligned}
+R_{ab} - \tfrac{1}{2}R g_{ab} = \kappa\big(\nabla_a \Phi \nabla_b \Phi - \tfrac{1}{2} g_{ab}(\nabla \Phi)^2\big)
 $$
 
 **Meaning:**
@@ -122,17 +109,8 @@ Planck foam ($10^{-35}\,\text{m}$)
 
 ## 7. Decoherence / Open-System Coupling
 
-$$ \dot{\rho}_{\text{bio}} = -i[H_{\text{bio}}, \rho_{\text{bio}}] + \gamma(\chi \rho_{\text{bio}} \chi^\dagger - \tfrac{1}{2}\{\chi^\dagger \chi, \rho_{\text{bio}}\}) $$
-
 $$
-\begin{aligned}
-\dot{\rho}_{\text{bio}}
-&= -i[H_{\text{bio}}, \rho_{\text{bio}}] \\
-&\quad + \gamma\!\left(
-\chi \rho_{\text{bio}} \chi^\dagger
-- \tfrac{1}{2}\{\chi^\dagger \chi, \rho_{\text{bio}}\}
-\right)
-\end{aligned}
+\dot{\rho}_{\text{bio}} = -i[H_{\text{bio}},\rho_{\text{bio}}] + \gamma\big(\chi\rho_{\text{bio}}\chi^\dagger - \tfrac{1}{2}\chi^\dagger\chi\,\rho_{\text{bio}}\big)
 $$
 
 **Meaning:**

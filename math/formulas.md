@@ -6,16 +6,8 @@ This document summarizes the main formulas used in the Speculative Consciousness
 
 ## 1. Core Lagrangian (Symbolic Form)
 
-\[
-\mathcal{L}_{\text{SCSM}} 
-= \sqrt{-g}\Big[
-  R + \alpha R^2
-  + g_\psi \,\bar{\psi}_{\text{ID}} \gamma^\mu D_\mu \psi_{\text{ID}}
-  + \tfrac{1}{2}(\partial_\mu \chi)^2 - \tfrac{1}{2} m_\chi^2 \chi^2
-  + g_\chi \chi \,\text{Tr}(\hat{A}\hat{E})
-  + \lambda_\chi \chi |\psi_{\text{bio}}|^2
-\Big]
-\]
+$$\mathcal{L}_{\mathrm{SCSM}}=\sqrt{-g}\left[R+\alpha R^{2}+g_\psi\bar{\psi}_{\mathrm{ID}}\gamma^\mu D_\mu\psi_{\mathrm{ID}}+\tfrac{1}{2}(\partial_\mu\chi)^2-\tfrac{1}{2}m_\chi^2\chi^2+g_\chi\chi\,\mathrm{Tr}(\hat{A}\hat{E})+\lambda_\chi\chi|\psi_{\mathrm{bio}}|^2\right]$$
+
 
 **Meaning:**
 
@@ -39,9 +31,7 @@ This Lagrangian encodes:
 
 ## 2. Skyrmion / Topological Identity Charge
 
-\[
-Q = \frac{1}{24\pi^2} \int \text{tr}\left(F \wedge F\right)
-\]
+$$Q=\frac{1}{24\pi^2}\int\mathrm{tr}(F\wedge F)$$
 
 **Meaning:**
 
@@ -55,17 +45,13 @@ Q = \frac{1}{24\pi^2} \int \text{tr}\left(F \wedge F\right)
 
 Standard Casimir pressure between plates:
 
-\[
-\Delta P_{\text{Casimir,0}} = -\frac{\hbar c \pi^2}{240 d^4}
-\]
+## 3. Casimir Pressure with Foam Correction
+
+$$\Delta P_{\mathrm{Casimir,0}}=-\frac{\hbar c\pi^2}{240d^4}$$
 
 SCSM v11.2 adds a small curvature‑dependent correction:
 
-\[
-\Delta P_{\text{Casimir}} 
-= -\frac{\hbar c \pi^2}{240 d^4}
-  + \alpha_{\text{foam}}\frac{\hbar}{d^2} R_{\text{eff}}
-\]
+$$\Delta P_{\mathrm{Casimir}}=-\frac{\hbar c\pi^2}{240d^4}+\alpha_{\mathrm{foam}}\frac{\hbar}{d^2}R_{\mathrm{eff}}$$
 
 **Meaning:**
 
@@ -79,12 +65,9 @@ This correction is what generates the predicted **~52 pN “rubbery” somatic
 
 ## 4. χ‑Field Bridge Lagrangian
 
-\[
-\mathcal{L}_{\chi} = \frac{1}{2}(\partial_\mu \chi)^2
-                    - \frac{1}{2}m_\chi^2\chi^2
-                    + g_\chi \chi \,\text{Tr}(\hat{A}\hat{E})
-                    + \lambda_\chi \chi |\psi_{\text{bio}}|^2
-\]
+## 4. χ-Field Bridge Lagrangian
+
+$$\mathcal{L}_\chi=\tfrac{1}{2}(\partial_\mu\chi)^2-\tfrac{1}{2}m_\chi^2\chi^2+g_\chi\chi\,\mathrm{Tr}(\hat{A}\hat{E})+\lambda_\chi\chi|\psi_{\mathrm{bio}}|^2$$
 
 **Meaning:**
 
@@ -98,17 +81,13 @@ This correction is what generates the predicted **~52 pN “rubbery” somatic
 
 Information potential Φ and Fisher metric:
 
-\[
-g_{ab}^{(I)} = \partial_a \partial_b \Phi(\rho)
-\]
+## 5. Information-Geometry / Entropic Gravity Link
+
+$$g_{ab}^{(I)}=\partial_a\partial_b\Phi(\rho)$$
 
 Entropy–curvature relation:
 
-\[
-R_{ab} - \frac{1}{2} R g_{ab}
-= \kappa \left(\nabla_a \Phi \nabla_b \Phi
-              - \frac{1}{2} g_{ab} (\nabla \Phi)^2 \right)
-\]
+$$R_{ab}-\tfrac{1}{2}Rg_{ab}=\kappa\left(\nabla_a\Phi\nabla_b\Phi-\tfrac{1}{2}g_{ab}(\nabla\Phi)^2\right)$$
 
 **Meaning:**
 

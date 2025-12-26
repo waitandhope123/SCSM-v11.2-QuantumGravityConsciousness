@@ -126,5 +126,3 @@ $$\dot{\rho}_{\mathrm{bio}}=-i[H_{\mathrm{bio}},\rho_{\mathrm{bio}}]+\gamma\left
 - This is the formal expression behind the “permeable boundary” and the idea that certain states (NDE, REM sleep, etc.) modulate coupling strength.
 
 ---
-
-This `formulas.md` file is meant as a bridge between the **compressed physics** in the main README and the **full LaTeX** in `math/Lagrangian.tex`. It gives readers enough context to see what each symbol and equation is doing without needing to parse the full formal derivations.

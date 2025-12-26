@@ -115,12 +115,9 @@ This chain shows how Planck‑scale structure can influence biological‑scale p
 
 In density‑matrix form for the biological subsystem:
 
-\[
-\dot{\rho}_{\text{bio}} 
-= -i[H_{\text{bio}}, \rho_{\text{bio}}]
-  + \gamma\left(\chi \rho_{\text{bio}} \chi^\dagger 
-  - \frac{1}{2}\{\chi^\dagger \chi, \rho_{\text{bio}}\}\right)
-\]
+## 7. Decoherence / Open-System Coupling (Conceptual Form)
+
+$$\dot{\rho}_{\mathrm{bio}}=-i[H_{\mathrm{bio}},\rho_{\mathrm{bio}}]+\gamma\left(\chi\rho_{\mathrm{bio}}\chi^\dagger-\tfrac{1}{2}\{\chi^\dagger\chi,\rho_{\mathrm{bio}}\}\right)$$
 
 **Meaning:**
 

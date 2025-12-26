@@ -12,14 +12,13 @@
 $$\mathcal{L}_{\mathrm{SCSM\text{-}v11.2}}=\sqrt{-g}\left[R+\alpha R^{2}+g_{\psi}\bar{\psi}\gamma^{\mu}D_{\mu}\psi_{\mathrm{ID}}+\tfrac{1}{2}(\partial\chi)^{2}-\tfrac{1}{2}m_{\chi}^{2}\chi^{2}+g_{\chi}\chi\,\mathrm{Tr}(\hat{A}\hat{E})+\lambda_{\chi}\chi|\psi_{\mathrm{bio}}|^{2}\right]$$
 
 ## Scale Translation Mechanism
-Planck foam (10⁻³⁵m)
-↓ g_χ χ Tr(ÂÊ̂)
-χ-phonon (10⁻⁶m, m_χ=10⁻¹² eV)
-↓ vacuum quantization
-Casimir boundary (10⁻³m)
-↓ λ_χ χ|ψ_bio|²
-Neural coherence (10⁻⁹m, τ=10⁻⁴s)
-
+Planck foam (10⁻³⁵ m)<br>
+↓ g_χ χ Tr(ÂÊ̂)<br>
+χ-phonon (10⁻⁶ m, m_χ=10⁻¹² eV)<br>
+↓ vacuum quantization<br>
+Casimir boundary (10⁻³ m)<br>
+↓ λ_χ χ|ψ_bio|²<br>
+Neural coherence (10⁻⁹ m, τ=10⁻⁴ s)
 
 ## Empirical Roadmap
 1. **2026**: Blinded Casimir pressure measurement (52 pN)
